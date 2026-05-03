@@ -7,7 +7,7 @@ Implementations of merge sort in **Haskell (functional)** and **Python (imperati
 - No variable modification
 - Logic handled with pattern matching only
 - Implementation only uses recursion
-- Follows strong, static typing checked at compile time to ensure safety and purity
+- Follows strong, static typing checked at compile time
 - Uses generational garbage collector
   - Uses "stop-the-world" stategy, suspending all applicaiton threads to free up space
   - Frequently collects newest allocation memory, and rarely collects oldest allocated memory
@@ -17,7 +17,7 @@ Implementations of merge sort in **Haskell (functional)** and **Python (imperati
 - Modifies variables
 - Logic handled with explicit `if/else` statements
 - Implementation uses a blend of both recursion and iterative loops
-- Follows strong, dynamic typing checked at runtime to ensure flexibility
+- Follows strong, dynamic typing checked at runtime
 - Uses reference counting + cycle-detecting generational collector
   - Most objects removed when reference count is zero
   - Requires all objects to store count that is updated every time it is assigned or deleted
