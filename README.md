@@ -48,7 +48,7 @@ cabal test --test-show-details=always
 
 Run:
 ```bash
-python3 imperative/merge_sort_imperative.py
+python3 imperative/merge_sort.py
 ```
 > [!NOTE] 
 > No need for a virtual environment since there are no dependencies.
