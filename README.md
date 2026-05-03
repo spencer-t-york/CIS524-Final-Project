@@ -19,7 +19,7 @@ Implementations of merge sort in **Haskell (functional)** and **Python (imperati
 - Implementation uses a blend of both recursion and iterative loops
 - Follows strong, dynamic typing checked at runtime
 - Uses reference counting + cycle-detecting generational collector
-  - Requires all objects to store count that is updated every time it is assigned or deleted
+  - Requires all objects to store count that is updated every time they are assigned or deleted
   - Most objects removed when reference count is zero
   - Uses generational counter for difficult memory cleanup cases
 
